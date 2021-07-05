@@ -1,20 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-layout1',
+  selector: "app-layout1",
   template: `
-    <p>
-      layout1 works!
-    </p>
+    <div style="background-color: aqua;">
+      <router-outlet name="menu"></router-outlet>
+    </div>
+    <div style="background-color: red;">
+      <router-outlet></router-outlet>
+    </div>
   `,
-  styles: [
-  ]
+  styles: []
 })
 export class Layout1Component implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
