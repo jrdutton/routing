@@ -12,9 +12,10 @@ import { Inner2Component } from "./inner2.component";
   declarations: [
     Feature1Component,
     Feature1MenuComponent,
-    Feature1WithIdComponent,
     Feature1MenuWithIdComponent,
-    Inner1Component
+    Feature1WithIdComponent,
+    Inner1Component,
+    Inner2Component
   ],
   imports: [
     CommonModule,
