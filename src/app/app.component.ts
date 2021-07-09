@@ -7,21 +7,16 @@ import { Component } from "@angular/core";
       <a [routerLink]="['feature1']">Feature 1</a>
     </div>
     <div>
-      <a [routerLink]="['feature1', '123456']"
-        >Feature 1 With Id And No Menu Outlet</a
+      <a [routerLink]="['feature1', '123456']">Feature 1 With Id</a>
+    </div>
+    <div>
+      <a [routerLink]="['feature1', '123456', 'inner1']"
+        >Feature 1 With Id and Inner 1</a
       >
     </div>
     <div>
-      <a
-        [routerLink]="[
-          {
-            outlets: {
-              primary: ['feature1', '123456'],
-              menu: ['feature1', '123456']
-            }
-          }
-        ]"
-        >Feature 1 With Id And Menu Outlet</a
+      <a [routerLink]="['feature1', '123456', 'inner2']"
+        >Feature 1 With Id and Inner 2</a
       >
     </div>
     <div>

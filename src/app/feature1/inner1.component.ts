@@ -1,11 +1,11 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: "app-feature2",
-  template: `<h1>Feature 2</h1>`,
+  selector: "app-inner1",
+  template: `<h2>Inner 1</h2>`,
   styles: []
 })
-export class Feature2Component implements OnInit {
+export class Inner1Component implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}

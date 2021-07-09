@@ -6,7 +6,7 @@ import { Component, OnInit } from "@angular/core";
     <div style="background-color: aqua;">
       <router-outlet name="menu"></router-outlet>
     </div>
-    <div style="background-color: red;">
+    <div style="background-color: blue;">
       <router-outlet></router-outlet>
     </div>
   `,

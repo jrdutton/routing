@@ -3,7 +3,7 @@ import { Component, OnInit } from "@angular/core";
 @Component({
   selector: "app-layout2",
   template: `
-    <div style="background-color: blue;">
+    <div style="background-color: red;">
       <router-outlet></router-outlet>
     </div>
   `,
